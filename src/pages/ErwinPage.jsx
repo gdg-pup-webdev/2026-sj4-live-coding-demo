@@ -1,25 +1,23 @@
-
-import sparky from "../assets/sparky.png";
+import erwinImage from "../assets/erwin-image.png";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import LinkButton from "./LinkButton";
+import LinkButton from "../components/LinkButton";
 import { FaYoutube } from "react-icons/fa";
 import { FaTwitch } from "react-icons/fa";
 
-
-function MainBody() {
+function ErwinPage() {
   return (
     <>
       <div className=" flex flex-col items-center gap-4 p-4">
         <div className="max-w-sm flex flex-col items-center gap-4 text-center">
-          <div className="w-30 h-30 rounded-full overflow-clip">
-            <img src={sparky}></img>
+          <div className="w-30 h-30 rounded-full overflow-clip mt-16">
+            <img src={erwinImage}></img>
           </div>
 
           <div className="font-semibold text-2xl text-white">
-            Sparky Batumbakal
+            Erwin Daguinotas
           </div>
 
           <div className="text-white">
@@ -65,4 +63,4 @@ function MainBody() {
   );
 }
 
-export default MainBody;
+export default ErwinPage;

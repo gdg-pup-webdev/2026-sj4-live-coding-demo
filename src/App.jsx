@@ -1,21 +1,22 @@
-import Navbar from "./components/Navbar";
-
-import background from "./assets/background.jpg";
-import MainBody from "./components/MainBody";
-import Footer from "./components/Footer";
+import { Routes, Route } from "react-router-dom";
+import SparkyPortfolio from "./pages/SparkyPortfolio";
+import Homepage from "./pages/Homepage";
+import MainLayout from "./layouts/MainLayout";
+import ErwinPage from "./pages/ErwinPage";
 
 function App() {
   return (
     <>
-      <div className="w-full bg-black/20 min-h-screen">
-        <Navbar />
-        <MainBody />
-        <Footer />
-
-        <div className="fixed -z-10 w-full h-screen top-0 ">
-          <img className="w-full h-full object-cover" src={background}></img>
-        </div>
-      </div>
+      <Routes>
+        <Route path="/" element={<MainLayout />}>
+          <Route index element={<Homepage />} />
+          <Route path="about" element={<div>this is the about page</div>} />
+          <Route path="students">
+            <Route path="sparky-page" element={<SparkyPortfolio />} />
+            <Route path="erwin" element={<ErwinPage/>} />
+          </Route>
+        </Route>
+      </Routes>
     </>
   );
 }
