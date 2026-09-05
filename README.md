@@ -1,29 +1,61 @@
-# React + Vite
+# Study Jam 4 Live Coding Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React + Vite live coding demo for GDG PUP Study Jam 4. Includes React Router so the session can demonstrate multi-page navigation in a single-page app.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [About](#about)
+- [Features](#features)
+- [Quick start](#quick-start)
+- [React Compiler](#react-compiler)
+- [ESLint](#eslint)
+- [Documentation](#documentation)
+- [Contributors](#contributors)
+
+## About
+
+This repository is the live coding demo for Study Jam 4. Facilitators use it to walk through React + Vite setup and React Router navigation during the session. It is a teaching demo, not a production product launch.
+
+## Features
+
+- Minimal React setup with Vite HMR
+- React Router for client-side navigation demos
+- ESLint rules for React Hooks and refresh
+- Official Vite React plugin options (`@vitejs/plugin-react` via Babel, or SWC via `@vitejs/plugin-react-swc`)
+
+## Quick start
+
+```bash
+npm install
+npm run dev
+```
+
+Open the local URL printed by Vite (usually `http://localhost:5173`).
+
+Other scripts:
+
+```bash
+npm run build
+npm run preview
+npm run lint
+```
 
 ## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The React Compiler is not enabled on this template because of its impact on dev and build performance. To add it, see the [React Compiler installation docs](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## ESLint
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# test-react-app" 
-
----
 
 ## Documentation
 
-- [docs/state.md](docs/state.md) - Teaching position / handover
-- [docs/index.md](docs/index.md) - Doc inventory
-- [FLAGS.md](FLAGS.md) - Improvement register
-- [AGENTS.md](AGENTS.md) - Agent load order
+| Doc | Purpose |
+| --- | --- |
+| [State](docs/state.md) | Operate position / teaching handover |
+| [Index](docs/index.md) | Document manifest |
+| [FLAGS](FLAGS.md) | Improvement register |
+| [AGENTS](AGENTS.md) | Agent read order |
 
 ## Contributors
 
