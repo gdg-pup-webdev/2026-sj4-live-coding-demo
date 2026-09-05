@@ -1,10 +1,16 @@
 # Study Jam 4 Live Coding Demo
 
+[![Status: Teaching](https://img.shields.io/badge/Status-Teaching-blue)](docs/state.md)
+[![Stack: React](https://img.shields.io/badge/Stack-React-black)](#about)
+[![FMD philosophy: 1.31.0](https://img.shields.io/badge/FMD%20philosophy-1.31.0-blue)](AGENTS.md)
+
+
 React + Vite live coding demo for GDG PUP Study Jam 4. Includes React Router so the session can demonstrate multi-page navigation in a single-page app.
 
 ## Table of Contents
 
 - [About](#about)
+- [Start here](#start-here)
 - [Features](#features)
 - [Quick start](#quick-start)
 - [React Compiler](#react-compiler)
@@ -15,6 +21,12 @@ React + Vite live coding demo for GDG PUP Study Jam 4. Includes React Router so 
 ## About
 
 This repository is the live coding demo for Study Jam 4. Facilitators use it to walk through React + Vite setup and React Router navigation during the session. It is a teaching demo, not a production product launch.
+
+## Start here
+
+- **Humans:** this README, then [docs/state.md](docs/state.md)
+- **Agents:** [AGENTS.md](AGENTS.md) (state → index → FLAGS)
+- **Contributors:** table below
 
 ## Features
 
@@ -59,8 +71,10 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## Contributors
 
-This project is made possible by the GDG PUP community:
+This project is made possible by the GDG PUP community.
 
-| Role | Name |
-| --- | --- |
-| Development | [Erwin Daguinotas](https://www.linkedin.com/in/erwin-daguinotas/) - Web Development Lead |
+| Name | Role | GitHub |
+| --- | --- | --- |
+| [Carlos Jerico Dela Torre](https://www.linkedin.com/in/delatorrecj) | Chief Technology Officer (2025-2026) | [@delatorrecj](https://github.com/delatorrecj) |
+| [Erwin Daguinotas](https://www.linkedin.com/in/erwin-daguinotas) | Web Development Lead | [@SauceCode01](https://github.com/SauceCode01) |
+
